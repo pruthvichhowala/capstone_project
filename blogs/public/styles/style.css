@@ -1,0 +1,265 @@
+/* body {
+    font-family: "Alfa Slab One", serif;
+  font-weight: 300;
+  font-style: normal;
+} */
+
+body {
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.center-image {
+    background-image: url("../images/image1.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.navbar-expand-lg {
+    padding: 0;
+}
+
+.nav-item {
+    padding: 0 2rem;
+}
+
+.container-fluid {
+    background-color: rgb(238, 238, 194);
+    padding: 1rem;
+}
+
+.addtional {
+    margin-left: 2.5rem;
+}
+
+.navbar-brand {
+    font-weight: bolder;
+    font-size: 2rem;
+    color: rgb(233, 179, 64);
+}
+
+.butt-color {
+    background-color: rgb(245, 130, 89);
+    color: black;
+}
+
+.nav-item a {
+    color: rgb(92, 89, 85) !important;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+/* home-page styling*/
+
+/* .text-align{
+    margin-top: 7rem !important;
+} */
+
+.lead {
+    color: rgb(122, 221, 208) !important;
+    font-size: 1.4rem !important;
+    font-weight: 400;
+}
+
+/* card section */
+#card-sec {
+    /* width: 70% !important; */
+}
+
+.py-5 {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+}
+
+.bg-image {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* Optional: Add a height and width if needed */
+    height: 300px;
+    /* or any other height */
+    width: 100%;
+    /* or any other width */
+}
+
+.yoga-image {
+    background-image: url("../images/YogiPathanjali-s.jpg") !important;
+}
+
+.jnana-image {
+    background-image: url("../images/adi-sankar.jpg") !important;
+    opacity: .80;
+}
+
+
+.bhakti-image {
+    background-image: url("../images/paramhans.webp") !important;
+    opacity: .80;
+}
+
+.more-btn {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin-top: .80rem;
+
+}
+
+.edit-btn {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    /* margin-top: 5rem; */
+/* width: .10rem; */
+}
+
+.btn-para a {
+    text-decoration: none !important;
+    color: black !important;
+    border: .20rem solid white !important;
+    padding: 0.30rem;
+    font-weight: 500;
+    background: wheat;
+}
+
+/* form -section */
+.form-section {
+    background: #6d6b6b;
+}
+
+.input-width {
+    margin: 0.70rem 0 !important;
+    width: 70%;
+}
+
+.button-width {
+    display: flex !important;
+    justify-content: flex-end !important;
+    align-items: center !important;
+}
+
+/* footer section */
+.footer-sec {
+    background-color: #c7c2c2;
+}
+
+.nav-item a {
+    color: black !important;
+}
+
+.year-para {
+    color: black !important;
+}
+
+/* blogs ejs*/
+
+/*yoga section*/
+.yoga-sec {
+    background-image: url('../images/Bonhams\ _\ A\ SCHIST\ FIGURE\ OF\ MAITREYA\ ANCIENT\ REGION\ OF\ GANDHARA\,\ CIRCA\ 3RD\ CENTURY.jpg') !important;
+}
+
+.custom-bg {
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 700px;
+    /* Match your SVG dimensions */
+    height: 700px;
+    /* Match your SVG dimensions */
+
+}
+
+.Patanjali-blog {
+    /* display: inline-grid; */
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.col-md-5 {
+    width: 500px;
+}
+
+.yoga-blog-margin {
+    margin: 2rem 0;
+}
+
+.yoga-blog-para {
+    font-size: 1.2rem !important;
+    color: black !important;
+}
+
+/* jnan section*/
+.jnan-sec {
+    background-image: url('../images/adisankar-blog.jpg') !important;
+}
+
+
+/*bhakti sec*/
+.bhakti-sec {
+    background-image: url('../images/Bhakti.jpg') !important;
+}
+
+/* contact us */
+.contact-us {
+    margin: 2rem;
+}
+
+.contact-us-in-width {
+    padding: 1rem 0;
+}
+
+/* ABOUT*/
+
+.about-us {
+    background: beige;
+}
+
+.main-img {
+    background-image: url("../images/vipasna.jpg") !important;
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.about-description {
+    color: black !important;
+    font-size: 1.4rem !important;
+    /* max-width: 70%; */
+
+}
+
+.about-para {
+    margin: 2rem 1rem;
+}
+
+.second-para {
+    margin: 2rem 1rem;
+}
+
+.our-philosophy {
+    margin: 0 2rem;
+}
+
+.philosophy-desc {
+    color: black !important;
+    font-size: 1.4rem !important;
+}
+
+.philosophy-ul li {
+    font-size: 1.2rem !important;
+    padding: 1rem;
+}
+
+/* edit ejs page*/
+.input-edit-width {
+    margin: 1rem;
+}
+.textarea-height{
+    /* padding: 5rem !important; */
+    height: 5rem !important;
+}

@@ -1,0 +1,146 @@
+<%- include("partials/header.ejs") %>
+
+    <body>
+        
+        <div class="home-page center-image">
+            <div class="px-4 pt-5  text-center border-bottom main-page-height text-align">
+                <h1 class="display-4 fw-bold text-body-emphasis">Path of Spirituality in india.</h1>
+                <div class="col-lg-6 mx-auto">
+                    <p class="lead mb-4">Spirituality in India is deeply ingrained in the culture, with a strong
+                        emphasis on seeking liberation from the cycle of rebirth (samsara) through practices like
+                        meditation, yoga, and devotion to a higher power, often expressed through various religious
+                        traditions like Hinduism, Buddhism, Jainism, and Sikhism, with key texts like the Vedas,
+                        Upanishads, Bhagavad Gita, and Dhammapada serving as foundational spiritual wisdom; this
+                        manifests in everyday life through rituals, temple visits, and a focus on inner peace and
+                        interconnectedness with the universe. </p>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5" id="card-sec">
+            <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg yoga-image bg-image"
+                    style="background-image: url('../public/images/YogiPathanjali-s.jpg');">
+                    <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                        <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" name="yoga-name"> yoga :</h3>
+
+                        <div class="para">
+
+                            <p class="para1" name="yogpara">
+                                Yoga is is a group of physical, mental, and spiritual practices or disciplines that
+                                originated in ancient India, aimed at controlling body and mind to attain various
+                                salvation goals, as practiced in the Hindu, Jain, and Buddhist traditions.
+                            </p>
+                        </div>
+                        <div class="more-btn">
+                            <p class="btn-para"><a href="/Blogs" name="Blogs">More</a></p>
+                        </div>
+                        <div class="edit-btn">
+                            <p class="btn-para"><a href="/edit" name="edit">edit</a></p>
+                        </div>
+                    </div>
+                </div>
+
+             
+            </div>
+
+
+            <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg jnana-image bg-image"
+                    style="background-image: url('../public/images/adi-sankar.jpg');">
+                    <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                        <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Jnana marg:
+                        </h3>
+
+                        <div class="para">
+                            <p class="para2">
+                                The jñāna yoga is a spiritual practice that pursues knowledge with questions such as
+                                "who am I, what am I" among others. The practitioner studies usually with the aid of a
+                                guru, meditates, reflects, and reaches liberating insights on the nature of one's own
+                                Self (Atman, soul) and its relationship to the metaphysical concept called Brahman in
+                                Hinduism.The jñāna-mārga ideas are discussed in ancient and medieval era Hindu
+                                scriptures and texts such as the Upanishads and the Bhagavad Gita.
+                            </p>
+                        </div>
+
+                        <div class="more-btn">
+                            <p class="btn-para"><a href="/Blogs" name="Blogs">More</a></p>
+                        </div>
+                        <div class="edit-btn">
+                            <p class="btn-para"><a href="/edit" name="edit">edit</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg bhakti-image bg-image"
+                    style="background-image: url('unsplash-photo-3.jpg');">
+                    <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                        <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">bhakti marg:</h3>
+
+                        <div class="para">
+
+                            <p class="para3">
+                                Bhakti yoga , also called Bhakti marga (भक्ति मार्ग, literally the path of bhakti), is a
+                                spiritual path or spiritual practice within Hinduism focused on loving devotion towards
+                                any personal deity. It is one of the three classical paths in Hinduism which lead to
+                                moksha, the other paths being jnana yoga and karma yoga.
+                            </p>
+                        </div>
+
+                        <div class="more-btn">
+                            <p class="btn-para"><a href="/Blogs" name="Blogs">More</a></p>
+                        </div>
+                        <div class="edit-btn">
+                            <p class="btn-para"><a href="/edit" name="edit">edit</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-section pb-3">
+            <div class="container ">
+                <form method="post" action="/submit">
+
+                    <h1 class="h3 mb-3 pt-3 fw-normal">Please sign in</h1>
+
+                    <div class="form-floating">
+                        <input type="text" class="form-control input-width" id="floatingInput"
+                            placeholder="name@example.com" name="fullname">
+                        <label for="floatingInput">Full-name</label>
+                    </div>
+
+                    <div class="form-floating">
+                        <input type="tel" class="form-control input-width" id="floatingInput"
+                            placeholder="name@example.com" name="mobile">
+                        <label for="floatingInput">mobile no.</label>
+                    </div>
+
+                    <div class="form-floating">
+                        <input type="email" class="form-control input-width" id="floatingInput"
+                            placeholder="name@example.com" name="email">
+                        <label for="floatingInput">Email address</label>
+                    </div>
+                    <div class="form-floating">
+                        <input type="password" class="form-control input-width" id="floatingPassword"
+                            placeholder="Password" name="passwrod">
+                        <label for="floatingPassword">Password</label>
+                    </div>
+
+                    <div class="form-check text-start my-3">
+                        <input class="form-check-input" type="checkbox" value="remember-me" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Remember me
+                        </label>
+                    </div>
+                    <button class="btn btn-primary w-40 py-2 button-width" type="submit">Sign in</button>
+
+                </form>
+            </div>
+        </div>
+        <%- include("partials/footer.ejs") %>
+    </body>

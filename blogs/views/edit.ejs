@@ -1,0 +1,44 @@
+<%- include("partials/header.ejs") %>
+<div class="container my-5">
+
+    <form method="post" action="/submit-edit">
+        <h1 class="h3 mb-3 fw-normal">Edit Blog Post</h1>
+
+        <div class="form-floating input-edit-width">
+            <input type="text" class="form-control" id="floatingInput" name="rephead" value="<%= blog.heading %>" required>
+            <label for="floatingInput">Heading</label>
+        </div>
+
+        <div class="form-floating input-edit-width">
+            <textarea class="form-control textarea-height" name="textarea-name" id="floatingTextarea" required><%= blog.description %></textarea>
+            <label for="floatingTextarea">Description</label>
+        </div>
+
+        <button class="btn btn-primary w-100 py-2" type="submit" name="submit-edit" value="submit">SUBMIT</button>
+        <p class="mt-5 mb-3 text-body-secondary">© 2017–2024</p>
+    </form>
+    
+
+    <!-- <form method="post" action="submit">
+       
+        <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+
+        <div class="form-floating  input-edit-width">
+            <input type="text" class="form-control" id="floatingInput" name="head" placeholder="name@example.com">
+            <label for="floatingInput">heading</label>
+           <h2>  </h2>
+           
+
+        </div>
+        
+        <div class="form-floating  input-edit-width">
+            <textarea class="form-control  textarea-height" name="textarea-name" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+            <label for="floatingTextarea">description</label>
+            <p> </p>
+          </div>
+
+        
+        <button class="btn btn-primary w-100 py-2" type="submit" name="submit-edit" value="submit">SUBMIT</button>
+        <p class="mt-5 mb-3 text-body-secondary">© 2017–2024</p>
+    </form> -->
+</div>
